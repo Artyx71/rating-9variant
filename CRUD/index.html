@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Приложение "Запись к врачу"</title>
+</head>
+<body>
+  <h1>Приложение "Запись к врачу"</h1>
+  <form>
+    <fieldset>
+      <legend>Добавить запись</legend>
+      <label>
+        ФИО пациента:
+        <input type="text" name="name">
+      </label>
+      <br>
+      <label>
+        Номер телефона:
+        <input type="text" name="phone">
+      </label>
+      <br>
+      <label>
+        Жалобы пациента:
+        <input type="text" name="complaints">
+      </label>
+      <br>
+      <button type="submit">Добавить</button>
+    </fieldset>
+  </form>
+  <hr>
+  <h2>Список записей</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ФИО пациента</th>
+        <th>Номер телефона</th>
+        <th>Жалобы пациента</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Список записей будет добавлен здесь динамически -->
+    </tbody>
+  </table>
+  <script src="app.js"></script>
+</body>
+</html>
